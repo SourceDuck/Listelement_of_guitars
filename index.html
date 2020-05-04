@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<style type="text/css">
+
+/*!-- Give all images in LI element the same attributes (width) */
+li img {
+padding: 8px;
+vertical-align:	middle;
+width: 42px
+}
+
+li img:hover {
+
+transform: scale(1.2);
+}
+
+
+/* -- Have linktext automatically CAPS */
+
+#links a {
+	text-transform: uppercase;
+
+}
+
+.first_nav li {
+	list-style: none;
+display: inline-block;	
+}
+
+</style>
+
+<html>
+<head>
+	<title>Listelements</title>
+</head>
+<body>
+
+
+<header>
+
+<h1>Guitar brands</h1>
+
+</header>
+
+<h2>Organized list using images from another site</h2>
+
+<ol class="first_nav">
+	<li><img alt="Gibson" src="https://i.pinimg.com/originals/84/46/0e/84460e7baf0accb255d1ccdb93c2a71e.jpg"></li>
+	<li><img alt="Esp" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/ESP_Logo.svg/1200px-ESP_Logo.svg.png"></li>
+	<li><img alt="Ibanez" src="https://lofrev.net/wp-content/photos/2016/11/ibanez_logo_4.png"></li>
+	<li><img alt="Tokai" src="https://i.pinimg.com/originals/37/da/58/37da5891c8dba1ba66d62e6772b3546e.jpg"></li>
+</ol>
+
+<a href="#links">bottom</a>
+<hr>
+
+<p><em>There is a difference wether you insert your list elements inside or outside <strong title="unorganized">ul</strong> and <strong title="organized">ol</strong> lists..</em></p>
+
+
+
+<h3>Organized sublist outside organized listelement</h3>
+
+
+
+<ol>
+	<li>Gibson</li>
+	<ol>
+		<li>Pro</li>
+		<li>Studio</li>
+		<li>Epiphone</li>
+	</ol>
+
+	<li>Esp</li>
+	<li>Ibanez</li>
+	<li>Tokai</li>
+</ol>
+
+<h3>Organized sublist inside organized listelement</h3>
+
+<ol>
+	<li>Gibson
+		<ol>
+			<li>Pro</li>
+			<li>Studio</li>
+			<li>Epiphone</li>
+		</ol>
+	</li>
+
+	<li>Esp</li>
+	<li>Ibanez</li>
+	<li>Tokai</li>
+</ol>
+
+<h3>Unorganized sublist outside organized listelement</h3>
+
+<ol>
+	<li>Gibson</li>
+	<ul>
+		<li>Pro</li>
+		<li>Studio</li>
+		<li>Epiphone</li>
+	</ul>
+
+	<li>Esp</li>
+	<li>Ibanez</li>
+	<li>Tokai</li>
+</ol>
+
+<h3>Unorganized sublist inside organized listelement</h3>
+
+<ol>
+	<li>Gibson
+		<ul>
+			<li>Pro</li>
+			<li>Studio</li>
+			<li>Epiphone</li>
+		</ul>
+	</li>
+
+	<li>Esp</li>
+	<li>Ibanez</li>
+	<li>Tokai</li>
+</ol>
+
+<hr>
+
+<div id="links">
+	<p>
+
+
+<a href="newpage.html">Other stuff</a><br>
+<a href="register.html">Register</a>
+</p>
+</div>
+
+<footer>Thanks so much for visiting my first page 2020</footer>
+
+</body>
+</html>
